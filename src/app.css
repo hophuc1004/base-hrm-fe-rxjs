@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.scrollbar-hide::-webkit-scrollbar
+{
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+#underline_select::-ms-expand {
+    color: red;
+    margin-right: 5px; /* change the value as per your requirement */
+  }
+

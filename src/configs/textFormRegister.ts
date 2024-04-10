@@ -1,0 +1,38 @@
+export const textFormRegister = {
+  LABEL_INPUT_FIRST_NAME: "First Name *",
+  PLACE_HOLDER_INPUT_FIRST_NAME: "Enter first name",
+  SUB_LABEL_INPUT_FIRST_NAME: "Do not empty.",
+  LABEL_INPUT_LAST_NAME: "Last Name *",
+  PLACE_HOLDER_INPUT_LAST_NAME: "Enter last name",
+  SUB_LABEL_INPUT_LAST_NAME: "Do not empty.",
+  LABEL_INPUT_DAY_ON_BOARD: "Day on board *",
+  LABEL_INPUT_DATE_OF_BIRTH: "Date of birth *",
+  LABEL_INPUT_SELECT_POSITION: "Select an position *",
+  LABEL_INPUT_EMAIL: "Email *",
+  PLACE_HOLDER_INPUT_EMAIL: "Enter email",
+  SUB_LABEL_INPUT_EMAIL: "Must to correct email format. Example: abc@xyz.com",
+  LABEL_INPUT_STAFF_ID: "Staff ID *",
+  PLACE_HOLDER_INPUT_STAFF_ID: "Enter Staff ID",
+  SUB_LABEL_INPUT_STAFF_ID: "Do not empty",
+  LABEL_CHOOSE_POSITION: "Choose position",
+  LABEL_FLOOR: "Floor",
+  LABEL_INPUT_PASSWORD: "Password *",
+  PLACE_HOLDER_INPUT_PASSWORD: "Enter password",
+  SUB_LABEL_INPUT_PASSWORD:
+    "Has at least 8 characters in English, including numbers and special characters.",
+  PLACE_HOLDER_INPUT_CONFIRM_PASSWORD: "Confirm password",
+};
+
+export const errorTextFormRegister = {
+  FIRST_NAME_EMPTY: "First name cannot be empty.",
+  LAST_NAME_EMPTY: "Last name cannot be empty.",
+  PHONE_NUMBER_EMPTY: "Phone number cannot be empty",
+  IDENTITY_NUMBER: "Identity number cannot be empty",
+  DAY_ON_BOARD_EMPTY: "You have to choose day on board.",
+  DATE_OF_BIRTH_EMPTY: "You have to choose date of birth.",
+  STAFF_ID_EMPTY: "Staff id cannot be empty.",
+  POSITION_EMPTY: "You must choose an position.",
+  EMAIL_IS_NOT_FORMAT: "Incorrect email format. Please try again.",
+  PASSWORD_AT_LEAST: "Password must be at least 8 characters.",
+  CONFIRM_PASSWORD_FAIL: "Confirm Password is incorrect. Please try again.",
+};
